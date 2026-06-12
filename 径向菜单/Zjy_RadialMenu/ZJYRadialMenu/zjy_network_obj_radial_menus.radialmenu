@@ -1,0 +1,244 @@
+{
+	"fileversion":"20.5.571",
+	"name":"zjy_network_obj_radial_menus",
+	"categories":"Standard",
+	"pane":"network",
+	"label":"zjy_network_obj_radial_menus",
+	"type":"submenu",
+	"items":{
+		"0":{
+			"label":"Null",
+			"type":"script_action",
+			"icon":"OBJ_null",
+			"script":"radialmenu.runShelfTool(kwargs, 'object_null')"
+		},
+		"1":{
+			"label":"File Cache",
+			"type":"script_action",
+			"icon":"SOP_filecache",
+			"script":"radialmenu.runShelfTool(kwargs, 'sop_filecache::2.0')"
+		},
+		"2":{
+			"label":"Gamepad Camera",
+			"type":"script_action",
+			"icon":"CHOP_gamepad",
+			"script":"radialmenu.runShelfTool(kwargs, 'obj_gamepadcamera')"
+		},
+		"3":{
+			"label":"Spot Light",
+			"type":"script_action",
+			"icon":"OBJ_light_spot",
+			"script":"radialmenu.runShelfTool(kwargs, 'object_spotlight')"
+		},
+		"4":{
+			"label":"Camera",
+			"type":"script_action",
+			"icon":"OBJ_camera",
+			"script":"radialmenu.runShelfTool(kwargs, 'object_cam')"
+		},
+		"5":{
+			"label":"Submenu",
+			"type":"submenu",
+			"items":{
+			}
+		},
+		"6":{
+			"label":"light",
+			"type":"submenu",
+			"items":{
+				"0":{
+					"label":"Ambient Light",
+					"type":"script_action",
+					"icon":"OBJ_light",
+					"script":"radialmenu.runShelfTool(kwargs, 'object_ambient')"
+				},
+				"1":{
+					"label":"Distant Light",
+					"type":"script_action",
+					"icon":"OBJ_light_directional",
+					"script":"radialmenu.runShelfTool(kwargs, 'object_distantlight')"
+				},
+				"3":{
+					"label":"Environment Light",
+					"type":"script_action",
+					"icon":"OBJ_light_environment",
+					"script":"radialmenu.runShelfTool(kwargs, 'object_envlight')"
+				},
+				"4":{
+					"label":"Caustic Light",
+					"type":"script_action",
+					"icon":"OBJ_light_caustic",
+					"script":"radialmenu.runShelfTool(kwargs, 'obj_causticlight')"
+				},
+				"5":{
+					"label":"Submenu",
+					"type":"submenu",
+					"items":{
+						"5":{
+							"label":"Submenu",
+							"type":"submenu",
+							"items":{
+							}
+						},
+						"6":{
+							"label":"Submenu",
+							"type":"submenu",
+							"items":{
+								"5":{
+									"label":"Submenu",
+									"type":"submenu",
+									"items":{
+										"5":{
+											"label":"Mirror",
+											"type":"script_action",
+											"icon":"SOP_mirror",
+											"script":"radialmenu.runShelfTool(kwargs, 'sop_mirror')"
+										},
+										"7":{
+											"label":"Fuse",
+											"type":"script_action",
+											"icon":"SOP_fuse-2.0",
+											"script":"radialmenu.runShelfTool(kwargs, 'sop_fuse::2.0')"
+										}
+									}
+								},
+								"6":{
+									"label":"Submenu",
+									"type":"submenu",
+									"items":{
+										"5":{
+											"label":"Split",
+											"type":"script_action",
+											"icon":"SOP_split",
+											"script":"radialmenu.runShelfTool(kwargs, 'sop_split')"
+										},
+										"6":{
+											"label":"Fuse",
+											"type":"script_action",
+											"icon":"SOP_fuse-2.0",
+											"script":"radialmenu.runShelfTool(kwargs, 'sop_fuse::2.0')"
+										}
+									}
+								}
+							}
+						}
+					}
+				},
+				"6":{
+					"label":"Submenu",
+					"type":"submenu",
+					"items":{
+						"0":{
+							"label":"Environment Light",
+							"type":"script_action",
+							"icon":"OBJ_light_environment",
+							"script":"radialmenu.runShelfTool(kwargs, 'object_envlight')"
+						},
+						"3":{
+							"label":"Gamepad Camera",
+							"type":"script_action",
+							"icon":"CHOP_gamepad",
+							"script":"radialmenu.runShelfTool(kwargs, 'obj_gamepadcamera')"
+						},
+						"4":{
+							"label":"Caustic Light",
+							"type":"script_action",
+							"icon":"OBJ_light_caustic",
+							"script":"radialmenu.runShelfTool(kwargs, 'obj_causticlight')"
+						},
+						"5":{
+							"label":"Submenu",
+							"type":"submenu",
+							"items":{
+								"2":{
+									"label":"Environment Light",
+									"type":"script_action",
+									"icon":"OBJ_light_environment",
+									"script":"radialmenu.runShelfTool(kwargs, 'object_envlight')"
+								},
+								"3":{
+									"label":"Point Light",
+									"type":"script_action",
+									"icon":"OBJ_light_point",
+									"script":"radialmenu.runShelfTool(kwargs, 'object_pointlight')"
+								},
+								"4":{
+									"label":"Portal Light",
+									"type":"script_action",
+									"icon":"OBJ_light_portal",
+									"script":"radialmenu.runShelfTool(kwargs, 'obj_portallight')"
+								},
+								"5":{
+									"label":"Delete",
+									"type":"script_action",
+									"icon":"SOP_delete",
+									"script":"radialmenu.runShelfTool(kwargs, 'sop_delete')"
+								},
+								"6":{
+									"label":"Clean",
+									"type":"script_action",
+									"icon":"SOP_clean",
+									"script":"radialmenu.runShelfTool(kwargs, 'sop_clean')"
+								},
+								"7":{
+									"label":"Geometry Light",
+									"type":"script_action",
+									"icon":"OBJ_light_geo",
+									"script":"radialmenu.runShelfTool(kwargs, 'obj_geolight')"
+								}
+							}
+						},
+						"6":{
+							"label":"Submenu",
+							"type":"submenu",
+							"items":{
+								"0":{
+									"label":"Geometry Light",
+									"type":"script_action",
+									"icon":"OBJ_light_geo",
+									"script":"radialmenu.runShelfTool(kwargs, 'obj_geolight')"
+								},
+								"4":{
+									"label":"Point Light",
+									"type":"script_action",
+									"icon":"OBJ_light_point",
+									"script":"radialmenu.runShelfTool(kwargs, 'object_pointlight')"
+								},
+								"5":{
+									"label":"GI Light",
+									"type":"script_action",
+									"icon":"OBJ_light_gi",
+									"script":"radialmenu.runShelfTool(kwargs, 'obj_gilight')"
+								},
+								"6":{
+									"label":"Blast",
+									"type":"script_action",
+									"icon":"SOP_blast",
+									"script":"radialmenu.runShelfTool(kwargs, 'sop_blast')"
+								},
+								"7":{
+									"label":"Add",
+									"type":"script_action",
+									"icon":"SOP_add",
+									"script":"radialmenu.runShelfTool(kwargs, 'sop_add')"
+								}
+							}
+						},
+						"7":{
+							"label":"Ambient Light",
+							"type":"script_action",
+							"icon":"OBJ_light",
+							"script":"radialmenu.runShelfTool(kwargs, 'object_ambient')"
+						}
+					}
+				},
+				"7":{
+					"label":"Area Light",
+					"type":"script_action",
+					"icon":"OBJ_light_area",
+					"script":"radialmenu.runShelfTool(kwargs, 'object_arealight')"
+				}
+			}
+		}
+	}
+}

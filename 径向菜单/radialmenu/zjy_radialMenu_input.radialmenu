@@ -1,0 +1,28 @@
+{
+	"fileversion":"21.0.699",
+	"name":"zjy_radialMenu_input",
+	"categories":"Standard",
+	"pane":"network",
+	"label":"zjy_radialMenu_input",
+	"type":"submenu",
+	"items":{
+		"0":{
+			"label":"Ambient Light",
+			"type":"script_action",
+			"icon":"OBJ_light",
+			"script":"radialmenu.runShelfTool(kwargs, 'object_ambient')"
+		},
+		"2":{
+			"label":"Caustic Light",
+			"type":"script_action",
+			"icon":"OBJ_light_caustic",
+			"script":"radialmenu.runShelfTool(kwargs, 'obj_causticlight')"
+		},
+		"3":{
+			"label":"Distant Light",
+			"type":"script_action",
+			"icon":"OBJ_light_directional",
+			"script":"radialmenu.runShelfTool(kwargs, 'object_distantlight')"
+		}
+	}
+}

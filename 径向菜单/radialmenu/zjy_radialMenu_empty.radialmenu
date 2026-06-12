@@ -1,0 +1,166 @@
+{
+	"fileversion":"21.0.699",
+	"name":"zjy_radialMenu_empty",
+	"categories":"Standard",
+	"pane":"network",
+	"label":"zjy_radialMenu_empty",
+	"type":"submenu",
+	"items":{
+		"0":{
+			"label":"Geometry",
+			"type":"script_action",
+			"icon":"OBJ_geo",
+			"script":"radialmenu.runShelfTool(kwargs, 'object_geo')"
+		},
+		"2":{
+			"label":"More",
+			"type":"submenu",
+			"items":{
+				"0":{
+					"label":"Stereo Camera",
+					"type":"script_action",
+					"icon":"OBJ_stereocamera",
+					"script":"radialmenu.runShelfTool(kwargs, 'object_stereocamrig')"
+				},
+				"1":{
+					"label":"VR Camera",
+					"type":"script_action",
+					"icon":"SHOP_vrlens",
+					"script":"radialmenu.runShelfTool(kwargs, 'object_vrcam')"
+				},
+				"2":{
+					"label":"Switcher",
+					"type":"script_action",
+					"icon":"OBJ_switcher",
+					"script":"radialmenu.runShelfTool(kwargs, 'object_switcher')"
+				},
+				"3":{
+					"label":"Gamepad Camera",
+					"type":"script_action",
+					"icon":"CHOP_gamepad",
+					"script":"radialmenu.runShelfTool(kwargs, 'obj_gamepadcamera')"
+				},
+				"7":{
+					"label":"Ambient Light",
+					"type":"script_action",
+					"icon":"OBJ_light",
+					"script":"radialmenu.runShelfTool(kwargs, 'object_ambient')"
+				}
+			}
+		},
+		"4":{
+			"label":"Lights and Cameras",
+			"type":"submenu",
+			"items":{
+				"1":{
+					"label":"Camera",
+					"type":"script_action",
+					"icon":"OBJ_camera",
+					"script":"radialmenu.runShelfTool(kwargs, 'object_cam')"
+				},
+				"2":{
+					"label":"Point Light",
+					"type":"script_action",
+					"icon":"OBJ_light_point",
+					"script":"radialmenu.runShelfTool(kwargs, 'object_pointlight')"
+				},
+				"3":{
+					"label":"Spot Light",
+					"type":"script_action",
+					"icon":"OBJ_light_spot",
+					"script":"radialmenu.runShelfTool(kwargs, 'object_spotlight')"
+				},
+				"4":{
+					"label":"Area Light",
+					"type":"script_action",
+					"icon":"OBJ_light_area",
+					"script":"radialmenu.runShelfTool(kwargs, 'object_arealight')"
+				},
+				"5":{
+					"label":"Geometry Light",
+					"type":"script_action",
+					"icon":"OBJ_light_geo",
+					"script":"radialmenu.runShelfTool(kwargs, 'obj_geolight')"
+				},
+				"6":{
+					"label":"Volume Light",
+					"type":"script_action",
+					"icon":"SHELF_volumelight",
+					"script":"radialmenu.runShelfTool(kwargs, 'obj_volumelight')"
+				}
+			}
+		},
+		"6":{
+			"label":"More",
+			"type":"submenu",
+			"items":{
+				"0":{
+					"label":"Caustic Light",
+					"type":"script_action",
+					"icon":"OBJ_light_caustic",
+					"script":"radialmenu.runShelfTool(kwargs, 'obj_causticlight')"
+				},
+				"1":{
+					"label":"Portal Light",
+					"type":"script_action",
+					"icon":"OBJ_light_portal",
+					"script":"radialmenu.runShelfTool(kwargs, 'obj_portallight')"
+				},
+				"3":{
+					"label":"Submenu",
+					"type":"submenu",
+					"items":{
+						"3":{
+							"label":"Portal Light",
+							"type":"script_action",
+							"icon":"OBJ_light_portal",
+							"script":"radialmenu.runShelfTool(kwargs, 'obj_portallight')"
+						},
+						"4":{
+							"label":"Geometry Light",
+							"type":"script_action",
+							"icon":"OBJ_light_geo",
+							"script":"radialmenu.runShelfTool(kwargs, 'obj_geolight')"
+						},
+						"5":{
+							"label":"GI Light",
+							"type":"script_action",
+							"icon":"OBJ_light_gi",
+							"script":"radialmenu.runShelfTool(kwargs, 'obj_gilight')"
+						},
+						"6":{
+							"label":"Environment Light",
+							"type":"script_action",
+							"icon":"SCENEGRAPH_primtype_domelight",
+							"script":"radialmenu.runShelfTool(kwargs, 'object_envlight')"
+						}
+					}
+				},
+				"4":{
+					"label":"Distant Light",
+					"type":"script_action",
+					"icon":"OBJ_light_directional",
+					"script":"radialmenu.runShelfTool(kwargs, 'object_distantlight')"
+				},
+				"5":{
+					"label":"Environment Light",
+					"type":"script_action",
+					"icon":"OBJ_light_environment",
+					"script":"radialmenu.runShelfTool(kwargs, 'object_envlight')"
+				},
+				"6":{
+					"label":"Sky Light",
+					"type":"script_action",
+					"icon":"OBJ_light_sky",
+					"script":"radialmenu.runShelfTool(kwargs, 'obj_skylight')"
+				},
+				"7":{
+					"label":"GI Light",
+					"type":"script_action",
+					"icon":"OBJ_light_gi",
+					"script":"radialmenu.runShelfTool(kwargs, 'obj_gilight')"
+				}
+			}
+		}
+	}
+}

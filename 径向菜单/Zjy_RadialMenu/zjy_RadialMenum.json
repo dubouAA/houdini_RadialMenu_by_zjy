@@ -1,0 +1,20 @@
+{
+	"env": [
+		{
+			"Zjy_RadialMenu": "$HOUDINI_PACKAGE_PATH/Zjy_RadialMenu"
+		},
+		{
+			"HOUDINI_RADIALMENU_PATH":"$HOUDINI_PACKAGE_PATH/Zjy_RadialMenu/ZJYRadialMenu"
+		},
+		{
+			"PYTHONPATH" : {
+				"value": "$Zjy_RadialMenu",
+				"method": "append"
+			}
+		}
+	],
+	"path": [
+		"$Zjy_RadialMenu"
+	],
+	"version": "0.5"
+}

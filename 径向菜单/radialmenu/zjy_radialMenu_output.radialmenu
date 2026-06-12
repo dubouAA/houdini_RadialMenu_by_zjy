@@ -1,0 +1,46 @@
+{
+	"fileversion":"21.0.699",
+	"name":"zjy_radialMenu_output",
+	"categories":"Standard",
+	"pane":"network",
+	"label":"zjy_radialMenu_output",
+	"type":"submenu",
+	"items":{
+		"0":{
+			"label":"Camera",
+			"type":"script_action",
+			"icon":"OBJ_camera",
+			"script":"radialmenu.runShelfTool(kwargs, 'object_cam')"
+		},
+		"3":{
+			"label":"Stereo Camera",
+			"type":"script_action",
+			"icon":"OBJ_stereocamera",
+			"script":"radialmenu.runShelfTool(kwargs, 'object_stereocamrig')"
+		},
+		"4":{
+			"label":"VR Camera",
+			"type":"script_action",
+			"icon":"SHOP_vrlens",
+			"script":"radialmenu.runShelfTool(kwargs, 'object_vrcam')"
+		},
+		"5":{
+			"label":"VR Camera",
+			"type":"script_action",
+			"icon":"SHOP_vrlens",
+			"script":"radialmenu.runShelfTool(kwargs, 'object_vrcam')"
+		},
+		"6":{
+			"label":"Sky Light",
+			"type":"script_action",
+			"icon":"OBJ_light_sky",
+			"script":"radialmenu.runShelfTool(kwargs, 'obj_skylight')"
+		},
+		"7":{
+			"label":"Area Light",
+			"type":"script_action",
+			"icon":"SCENEGRAPH_primtype_rectlight",
+			"script":"radialmenu.runShelfTool(kwargs, 'object_arealight')"
+		}
+	}
+}

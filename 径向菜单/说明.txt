@@ -1,0 +1,2 @@
+将文件夹:Zjy_RadialMenu 和文件:zjy_RadialMenum.json 放入: 文档\houdini21.0\packages\ 中
+将文件夹: radialmenu   放入: 文档\houdini21.0\ 中
